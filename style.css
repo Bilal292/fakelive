@@ -25,14 +25,14 @@ flex-direction: column;
 justify-content: space-between;
 align-items: center;
 color: rgb(240, 237, 237);
-font-size: 30px;
+font-size: 35px;
 
 z-index: 1;
 font-family: Optima, sans-serif;
 }
 
 #live-info {
-    margin-top: 70px;
+margin-top: 70px;
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -45,6 +45,8 @@ background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(190,21,136,0.8477984943977591) 0%, rgba(209,16,89,1) 100%);
 border-radius: 5px;
 padding: 10px;
+font-size: 30px;
+
 }
 
 #viewers-count-container {
@@ -59,12 +61,13 @@ font-size: medium;
 background-color: rgba(128, 128, 128, 0.5);
 padding: 15px;
 border-radius: 5px;
+font-size: 30px;
 }
 
 .live-text {
     grid-column: 2;
     grid-row: 2 / 4;
-    font-size: 20px;
+    font-size: 25px;
     margin-left: 5px;
     margin-right: 5px;
 
@@ -113,13 +116,13 @@ overflow-y: auto;
     font-weight: bold;
     margin-right: 10px;
     margin-bottom: 5px;
-    font-size: 25px;
+    font-size: 30px;
   }
 
 #live-dot {
 position: absolute;
-top: 40px;
-right: 30px;
+top: 70px;
+right: 50px;
 width: 10px;
 height: 10px;
 background-color: red;
