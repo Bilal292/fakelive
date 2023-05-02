@@ -1,11 +1,7 @@
 body{
   background-color: black;
 }
-#live-container {
-position: relative;
-width: 100%;
-height: 100vh;
-}
+
 
 #live-stream {
 position: absolute;
@@ -174,58 +170,3 @@ button:active {
 }
 
 
-/* Add this media query to adjust styles for small screens */
-@media only screen and (max-width: 600px) {
-  #live-overlay {
-    font-size: 20px;
-  }
-  #live-label {
-    font-size: 25px;
-  }
-  #live-comments {
-    width: 90%;
-    left: 5%;
-  }
-  .live-comment {
-    grid-template-columns: auto;
-    grid-template-rows: auto auto;
-  }
-  .profile-pic {
-    justify-self: center;
-    grid-row: 1;
-    margin-right: 0;
-    margin-bottom: 5px;
-  }
-  .username {
-    grid-column: 1;
-    grid-row: 2;
-    text-align: center;
-  }
-  .live-text {
-    grid-row: 4;
-    font-size: 20px;
-  }
-  #live-dot {
-    top: 30px;
-    right: 30px;
-    width: 5px;
-    height: 5px;
-  }
-  #live-info {
-    margin-top: 30px;
-    flex-direction: column;
-  }
-  #viewers-count-container {
-    margin-top: 10px;
-  }
-  #viewers-count {
-    font-size: 20px;
-    padding: 10px;
-  }
-}
-
-/* Add this to make the video responsive */
-#live-stream {
-  width: 100%;
-  height: auto;
-}
